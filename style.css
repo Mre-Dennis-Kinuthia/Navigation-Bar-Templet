@@ -1,0 +1,86 @@
+nav{
+  position: absolute;
+  top: 0;
+  left:0;
+  height: 47.1em;
+  width: 3.5em;
+  background-color: #184731;
+  border-radius: 1px;
+}
+.logo{
+  position: absolute;
+  top: 2%;
+  margin: .5em;
+  height: 3em;
+  width: 3em;
+  border-radius: 5px;
+  border: none;
+  background-color: #184731;
+}
+.Home{
+  height: 3em;
+  width: 3em;
+  margin: .5em;
+  margin-top: 12em;
+  border-radius: 5px;
+  border: none;
+  background-color: #184731;
+}
+.Home:hover{
+ background-color:#1f5c3f;
+
+}
+.Stats{
+  height: 3em;
+  width: 3em;
+  margin: .5em;
+  border-radius: 5px;
+  border: none;
+  background-color: #184731;
+}
+.Stats:hover{
+  background-color:#1f5c3f;
+
+}
+.Business{
+  height: 3em;
+  width: 3em;
+  margin: .5em;
+
+  border-radius: 5px;
+  border: none;
+  background-color: #184731;
+}
+.Business:hover{
+  background-color:#1f5c3f;
+}
+.Logistics{
+  height: 3em;
+  width: 3em;
+  margin: .5em;
+  border-radius: 5px;
+  border: none;
+  background-color: #184731;
+}
+.Logistics:hover{
+  background-color:#1f5c3f;
+}
+.Farm{
+  height: 3em;
+  width: 3em;
+  margin: .5em;
+  border-radius: 5px;
+  border: none;
+  background-color: #184731;
+}
+.Farm:hover{
+  background-color:#1f5c3f;
+}
+.Accounts{
+  height: 3em;
+  width: 3em;
+  margin: .5em;
+  margin-top: 19em;
+  border-radius: 50%;
+  border: none;
+}
