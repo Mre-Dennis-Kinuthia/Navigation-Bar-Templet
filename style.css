@@ -18,7 +18,7 @@ nav{
   height: 3em;
   width: 3em;
   border: none;
-  background-color: #184731;
+
 }
 .btn-txt{
   margin-left:25%;
@@ -120,4 +120,27 @@ nav{
   width:1.5em;
   left:88.5%;
   border-radius: 2.5px;
+}
+.signin-card{
+  position: absolute;
+  left: 30em;
+  top: 0;
+  background-color: green;
+  height: 46.5em;
+  width: 65em;
+}
+.form{
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top:20%;
+  left: 25%;
+}
+input{
+  margin: .25em;
+
+}
+input[type=text]{
+  width: 50%;
+  height: 2.5em;
 }
