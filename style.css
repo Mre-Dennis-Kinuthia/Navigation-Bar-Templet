@@ -1,9 +1,12 @@
+body,html{
+  min-height: 20em;
+}
 nav{
   position: absolute;
   top: 0;
   left:0;
   height: 47.1em;
-  width: 15em;
+  width: 16em;
   background-color: #184731;
   border-radius: 1px;
 }
@@ -11,9 +14,9 @@ nav{
   position: absolute;
   top: 2%;
   margin: .5em;
+  margin-left: 2em;
   height: 3em;
-  width: 10em;
-
+  width: 3em;
   border: none;
   background-color: #184731;
 }
@@ -23,38 +26,32 @@ nav{
   margin-top: 1em;
   color: #fff;
   font-size: 12px;
-
 }
 .Home{
   height: 4em;
   width: 18.01em;
   margin: 0em;
   margin-top: 12em;
-
   border: none;
   background-color: #184731;
 }
 .Home:hover{
  background-color:#1f5c3f;
-
 }
 .Stats{
   height: 4em;
   width: 18em;
   margin: .0em;
-
   border: none;
   background-color: #184731;
 }
 .Stats:hover{
   background-color:#1f5c3f;
-
 }
 .Business{
   height: 4em;
   width: 18em;
   margin: .0em;
-
   border: none;
   background-color: #184731;
 }
@@ -65,7 +62,6 @@ nav{
   height: 4em;
   width: 18em;
   margin: .0em;
-
   border: none;
   background-color: #184731;
 }
@@ -76,18 +72,52 @@ nav{
   height: 4em;
   width: 18em;
   margin: .0em;
-
   border: none;
   background-color: #184731;
 }
 .Farm:hover{
   background-color:#1f5c3f;
 }
-.Accounts{
+.Acc-card{
+  position: absolute;
+  left:10%;
+  top:90%;
+  background-color: #B5FBDD;
   height: 3em;
-  width: 3em;
-  margin: 1em;
-  margin-top: 19em;
+  width:13.5em;
+  border-radius: 5px;
+}
+.Acc-name{
+  position: absolute;
+  color: #fff;
+  height: 1.5em;
+  width: 8em;
+  top: 0em;
+  left: 4.5em;
+}
+.name{
+  position: absolute;
+  color: #184731;
+  font-size: 16px;
+  top: 0;
+  height: 100%;
+  text-align: center;
+  font-style: bold;
+}
+.Accounts{
+  position: absolute;
+  height: 2em;
+  width: 2em;
+  margin-left: 1em;
+  margin-top: 0.3em;
   border-radius: 50%;
   border: none;
+}
+.switch{
+  background-color: #76FEC5;
+  position: absolute;
+  height: 3em;
+  width:1.5em;
+  left:88.5%;
+  border-radius: 2.5px;
 }
