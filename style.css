@@ -3,7 +3,7 @@ nav{
   top: 0;
   left:0;
   height: 47.1em;
-  width: 3.5em;
+  width: 15em;
   background-color: #184731;
   border-radius: 1px;
 }
@@ -13,16 +13,22 @@ nav{
   margin: .5em;
   height: 3em;
   width: 3em;
-  border-radius: 5px;
+
   border: none;
   background-color: #184731;
 }
+.btn-txt{
+  margin-left:25%;
+  text-align: left;
+  margin-top: .8em;
+
+}
 .Home{
-  height: 3em;
-  width: 3em;
-  margin: .5em;
+  height: 4em;
+  width: 18.01em;
+  margin: 0em;
   margin-top: 12em;
-  border-radius: 5px;
+
   border: none;
   background-color: #184731;
 }
@@ -31,10 +37,10 @@ nav{
 
 }
 .Stats{
-  height: 3em;
-  width: 3em;
-  margin: .5em;
-  border-radius: 5px;
+  height: 4em;
+  width: 18em;
+  margin: .0em;
+
   border: none;
   background-color: #184731;
 }
@@ -43,11 +49,10 @@ nav{
 
 }
 .Business{
-  height: 3em;
-  width: 3em;
-  margin: .5em;
+  height: 4em;
+  width: 18em;
+  margin: .0em;
 
-  border-radius: 5px;
   border: none;
   background-color: #184731;
 }
@@ -55,10 +60,10 @@ nav{
   background-color:#1f5c3f;
 }
 .Logistics{
-  height: 3em;
-  width: 3em;
-  margin: .5em;
-  border-radius: 5px;
+  height: 4em;
+  width: 18em;
+  margin: .0em;
+
   border: none;
   background-color: #184731;
 }
@@ -66,10 +71,10 @@ nav{
   background-color:#1f5c3f;
 }
 .Farm{
-  height: 3em;
-  width: 3em;
-  margin: .5em;
-  border-radius: 5px;
+  height: 4em;
+  width: 18em;
+  margin: .0em;
+
   border: none;
   background-color: #184731;
 }
@@ -79,7 +84,7 @@ nav{
 .Accounts{
   height: 3em;
   width: 3em;
-  margin: .5em;
+  margin: .0em;
   margin-top: 19em;
   border-radius: 50%;
   border: none;
