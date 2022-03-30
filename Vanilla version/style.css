@@ -13,6 +13,7 @@ nav{
 .logo{
   position: absolute;
   top: 2%;
+
   margin: .5em;
   margin-left: 2em;
   height: 3em;
@@ -127,6 +128,13 @@ width: 25%;
 position: absolute;
 left: 60%;
 }
+.login-card{
+  position: absolute;
+  top: 15%;
+  left: 60%;
+  width:25%;
+  background-color: #fff;
+}
 .form{
 
 }
@@ -136,7 +144,7 @@ input{
 input[type=text]{
   margin: .5em;
   height: 3em;
-  width: 17em;
+  width:30em;
   border-radius: 2.5px;
   font-family: Arial, Helvetica, sans-serif;
   font-style: normal;
@@ -144,9 +152,9 @@ input[type=text]{
   font-size: 1em;
 }
 input[type=password]{
-  margin: .5em;
+  margin: 1em;
   height: 3em;
-  width:17em;
+  width:30em;
   border-radius: 2.5px;
   font-family: Arial, Helvetica, sans-serif;
   font-style: normal;
@@ -154,12 +162,35 @@ input[type=password]{
   font-size: 1em;
 }
 input[type=email]{
-  margin: .5em;
+  margin: 1em;
   height:3em;
-  width:17em;
+  width:30em;
   border-radius: 2.5px;
   font-family: Arial, Helvetica, sans-serif;
   font-style: normal;
   font-weight: bolder;
   font-size: 1em;
+}
+input[type=submit]{
+  margin: 1em;
+  height:3em;
+  width:20em;
+  border-radius: 2.5px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: bolder;
+  font-size: 1em;
+  background-color: #00CF91;
+}
+input[type=email]:focus{
+  border: 1px solid;
+  outline-color: #00CF91;
+}
+input[type=password]:focus{
+  border: 1px solid;
+  outline-color: #00CF91;
+}
+input[type=submit]:hover{
+  transition: .3s ease-in;
+  background-color:#76FEC5 ;
 }
