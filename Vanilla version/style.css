@@ -30,7 +30,7 @@ nav{
 }
 .Home{
   height: 4em;
-  width: 18.01em;
+  width: 19em;
   margin: 0em;
   margin-top: 12em;
   border: none;
@@ -41,7 +41,7 @@ nav{
 }
 .Stats{
   height: 4em;
-  width: 18em;
+  width: 19em;
   margin: .0em;
   border: none;
   background-color: #184731;
@@ -51,7 +51,7 @@ nav{
 }
 .Business{
   height: 4em;
-  width: 18em;
+  width: 19em;
   margin: .0em;
   border: none;
   background-color: #184731;
@@ -61,7 +61,7 @@ nav{
 }
 .Logistics{
   height: 4em;
-  width: 18em;
+  width: 19em;
   margin: .0em;
   border: none;
   background-color: #184731;
@@ -71,7 +71,7 @@ nav{
 }
 .Farm{
   height: 4em;
-  width: 18em;
+  width: 19em;
   margin: .0em;
   border: none;
   background-color: #184731;
